@@ -1,0 +1,23 @@
+#heroSection {
+  padding: 200px 280px;
+  background-image: url(../assets/bg-hero.jpg);
+  text-align: left;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 800;
+  color: aliceblue;
+  margin: 0;
+}
+
+p {
+  color: aliceblue;
+}
+
+button {
+  padding: 16px 28px;
+  border: none;
+  margin-right: 20px;
+  font-size: 16px;
+}

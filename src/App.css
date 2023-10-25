@@ -1,38 +1,113 @@
-.App {
+.container {
+  padding: 100px 280px;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 800;
+  color: #424242;
   text-align: center;
+  margin-bottom: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  padding: 24px;
+  border: 1px solid #999;
+}
+.card p {
+  color: #424242;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#cardRow {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 32px;
+  justify-content: space-between;
+}
+
+#aboutUs {
+  background: url(../src/assets/about.jpg);
+  background-size: cover;
+  height: 500px;
+  /* background-position-x: center; */
+}
+
+#pCard {
+  background: url(../src/assets/about.jpg);
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+#pGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.popOver {
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.popOver p {
+  color: #424242;
+}
+
+.buttonDark {
+  background-color: #424242;
+  color: white;
+  padding: 16px 28px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.buttonWhite {
+  background-color: white;
+  color: #424242;
+  padding: 16px 28px;
+  border: none;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.greyBg {
+  background-color: #424242;
+}
+
+.white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form input,
+textarea {
+  padding: 12px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.testimonialCard {
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 0 10px #999;
+}
+
+.testimonialCard p {
+  color: #424242;
 }

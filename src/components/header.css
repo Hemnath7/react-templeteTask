@@ -1,0 +1,14 @@
+.hContainer {
+  background-color: #424242;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.navLink {
+  color: aliceblue;
+  margin-right: 16px;
+  font-size: medium;
+  font-weight: 600;
+}
